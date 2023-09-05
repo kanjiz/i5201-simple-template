@@ -1,3 +1,7 @@
+# このファイルは、エディタの設定を定義するためのものです。
+# ファイルの種類ごとに設定を定義することができます。
+# 詳細は、以下のURLを参照してください。
+# https://editorconfig.org/
 root = true
 
 # 全てのファイルに適用される設定
@@ -17,3 +21,9 @@ insert_final_newline = true
 indent_size = 4
 # 行末の空白をトリムしないように設定する
 trim_trailing_whitespace = false
+
+# Windowsバッチファイルに適用される設定
+[*.bat]
+end_of_line = crlf
+[*.cmd]
+end_of_line = crlf
