@@ -1,0 +1,40 @@
+# Set the default behavior for text files
+* text=auto
+
+# Java source code
+*.java text eol=lf charset=UTF-8
+
+# Compiled Java classes
+*.class binary
+
+# Jar files
+*.jar binary
+
+# Text files
+*.txt text eol=lf charset=UTF-8
+
+# XML files
+*.xml text eol=lf charset=UTF-8
+
+# Properties files
+*.properties text eol=lf charset=UTF-8
+
+# Markdown files
+*.md text eol=lf charset=UTF-8
+
+# JSON files
+*.json text eol=lf charset=UTF-8
+
+# Git files
+*.gitignore text eol=lf charset=UTF-8
+*.gitattributes text eol=lf charset=UTF-8
+
+# Gradle files
+*.gradle text eol=lf charset=UTF-8
+
+# Linux start script should use lf
+/gradlew        text eol=lf
+
+# These are Windows script files and should use crlf
+*.bat           text eol=crlf
+*.cmd           text eol=crlf
